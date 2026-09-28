@@ -31,7 +31,7 @@ ln -s ~/.local/share/omarchy-norrsken-amber-theme ~/.config/omarchy/themes/norrs
 omarchy theme set norrsken-amber
 ```
 
-Terminals, the About window, [Omawrite](https://github.com/ejuro/omawrite), and [Flea](https://github.com/ejuro/flea) turn to glass; everything else stays opaque.
+Terminals, the Omarchy agent and About windows, [Omawrite](https://github.com/ejuro/omawrite), and [Flea](https://github.com/ejuro/flea) turn to glass; everything else stays opaque.
 
 ## Palette
 
