@@ -1,0 +1,36 @@
+# Norrsken Amber: Warm amber on a deep brown-black, with coral edges.
+mode = "dark"
+
+accent = "#ffb45e"
+selection = "#3a2414"
+muted = "#5a4332"
+
+background = "#0e0906"
+dark_background = "#0a0604"
+darker_background = "#060403"
+lighter_background = "#1a120c"
+
+foreground = "#f3e3cf"
+dark_foreground = "#9a8470"
+light_foreground = "#f8ecdc"
+bright_foreground = "#fff7ee"
+
+red = "#ff6b6b"
+yellow = "#ffd27a"
+orange = "#ff9a4a"
+green = "#b7e07a"
+cyan = "#7fd6c8"
+blue = "#8fb8ff"
+magenta = "#e59bd6"
+brown = "#8a5a3a"
+
+bright_red = "#ff8a8a"
+bright_yellow = "#ffe3a3"
+bright_green = "#cdeea0"
+bright_cyan = "#a5e8de"
+bright_blue = "#b0cdff"
+bright_magenta = "#f0b8e4"
+
+# Hairline window edges: accent fading into the second accent on the active window.
+hyprland_active_border = "rgba(ffb45eee) rgba(ff7a6bcc) 45deg"
+hyprland_inactive_border = "rgba(ffffff1a)"

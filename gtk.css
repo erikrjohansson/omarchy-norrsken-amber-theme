@@ -1,0 +1,70 @@
+/* Norrsken Amber — warm amber surfaces and accents for GTK 3 / GTK 4. */
+@define-color window_bg_color #0E0906;
+@define-color window_fg_color #F3E3CF;
+@define-color view_bg_color #0E0906;
+@define-color view_fg_color #F3E3CF;
+@define-color headerbar_bg_color #1A120C;
+@define-color headerbar_fg_color #F3E3CF;
+@define-color headerbar_backdrop_color #1A120C;
+@define-color headerbar_border_color #5A4332;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.20);
+@define-color sidebar_bg_color #1A120C;
+@define-color sidebar_fg_color #9A8470;
+@define-color sidebar_backdrop_color #1A120C;
+@define-color sidebar_border_color #5A4332;
+@define-color sidebar_shade_color rgba(0, 0, 0, 0.20);
+@define-color secondary_sidebar_bg_color #1A120C;
+@define-color secondary_sidebar_fg_color #9A8470;
+@define-color secondary_sidebar_backdrop_color #1A120C;
+@define-color secondary_sidebar_border_color #5A4332;
+@define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.20);
+@define-color card_bg_color #1A120C;
+@define-color card_fg_color #F3E3CF;
+@define-color popover_bg_color #1A120C;
+@define-color popover_fg_color #F3E3CF;
+@define-color dialog_bg_color #1A120C;
+@define-color dialog_fg_color #F3E3CF;
+@define-color thumbnail_bg_color #1A120C;
+@define-color thumbnail_fg_color #F3E3CF;
+@define-color card_shade_color rgba(0, 0, 0, 0.20);
+@define-color popover_shade_color rgba(0, 0, 0, 0.30);
+@define-color accent_bg_color #FFB45E;
+@define-color accent_fg_color #0E0906;
+@define-color accent_color #FFB45E;
+@define-color destructive_bg_color #FF6B6B;
+@define-color destructive_fg_color #0E0906;
+@define-color destructive_color #FF6B6B;
+@define-color error_bg_color #FF6B6B;
+@define-color error_fg_color #0E0906;
+@define-color error_color #FF6B6B;
+@define-color warning_bg_color #FFD27A;
+@define-color warning_fg_color #0E0906;
+@define-color warning_color #FFD27A;
+@define-color success_bg_color #B7E07A;
+@define-color success_fg_color #0E0906;
+@define-color success_color #B7E07A;
+@define-color borders #5A4332;
+@define-color unfocused_borders #5A4332;
+@define-color shade_color rgba(0, 0, 0, 0.25);
+@define-color theme_bg_color #0E0906;
+@define-color theme_fg_color #F3E3CF;
+@define-color theme_base_color #0E0906;
+@define-color theme_text_color #F3E3CF;
+@define-color theme_selected_bg_color #FFB45E;
+@define-color theme_selected_fg_color #0E0906;
+@define-color insensitive_bg_color #1A120C;
+@define-color insensitive_fg_color #9A8470;
+@define-color insensitive_base_color #1A120C;
+@define-color theme_unfocused_bg_color #0E0906;
+@define-color theme_unfocused_fg_color #9A8470;
+@define-color theme_unfocused_base_color #0E0906;
+@define-color theme_unfocused_text_color #9A8470;
+@define-color theme_unfocused_selected_bg_color #3A2414;
+@define-color theme_unfocused_selected_fg_color #F3E3CF;
+@define-color link_color #FFB45E;
+@define-color visited_link_color #E59BD6;
+
+selection { background-color: #3A2414; color: #FFF7EE; }
+button.suggested-action { background-color: #FFB45E; color: #0E0906; }
+button.suggested-action:hover { background-color: #FFC98A; color: #0E0906; }
+button.destructive-action { background-color: #FF6B6B; color: #0E0906; }

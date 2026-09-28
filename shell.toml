@@ -1,0 +1,135 @@
+# Norrsken Amber: Omarchy shell surfaces as frosted, translucent glass.
+# Full replacement for the generated shell.toml (same keys as default/themed/shell.toml.tpl).
+
+[bar]
+background       = "#0e0906"
+background-alpha = 0.55
+text             = "#f3e3cf"
+active           = "#ff6b6b"
+scale-with-font  = true
+size-horizontal  = 30
+size-vertical    = 32
+
+[hyprland]
+active-border            = "rgba(ffb45eee) rgba(ff7a6bcc) 45deg"
+active-border-foreground = "rgba(f3e3cfee) rgba(ff7a6bcc) 45deg"
+
+[controls]
+normal-color        = "#f3e3cf"
+normal-fill-alpha   = 0.03
+normal-border       = "#f3e3cf"
+normal-border-width = 1
+normal-border-alpha = 0.18
+
+hover-cursor-color        = "#ffb45e"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#ffb45e"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.35
+
+focus-color        = "#ffb45e"
+focus-fill-alpha   = 0.08
+focus-border       = "#ffb45e"
+focus-border-width = 1
+focus-border-alpha = 0.35
+
+# the active workspace / current item: a glowing accent pill
+selected-color        = "#ffb45e"
+selected-fill-alpha   = 0.16
+selected-border       = "#ffb45e"
+selected-border-width = 1
+selected-border-alpha = 0.6
+
+pressed-fill-alpha   = 0.24
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#0e0906"
+background-alpha = 0.85
+text             = "#f3e3cf"
+border           = "hyprland.active-border"
+border-alpha     = 0.8
+
+[tooltip]
+background       = "#0e0906"
+background-alpha = 0.9
+text             = "#f3e3cf"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.6
+
+[notifications]
+background       = "#0e0906"
+background-alpha = 0.82
+text             = "#f3e3cf"
+border           = "hyprland.active-border"
+border-alpha     = 0.9
+countdown        = "#ffb45e"
+
+[launcher]
+background                = "#0e0906"
+background-alpha          = 0.72
+text                      = "#f3e3cf"
+border                    = "hyprland.active-border"
+border-alpha              = 0.9
+scrim                     = "#060403"
+scrim-alpha               = 0.45
+selected-background       = "#ffb45e"
+selected-background-alpha = 0.12
+selected-text             = "#ffb45e"
+selected-border           = "#ffb45e"
+selected-border-alpha     = 0.5
+
+[menu]
+background                = "#0e0906"
+background-alpha          = 0.85
+text                      = "#f3e3cf"
+border                    = "hyprland.active-border"
+border-alpha              = 0.9
+scrim                     = "#060403"
+scrim-alpha               = 0.45
+selected-background       = "#ffb45e"
+selected-background-alpha = 0.12
+selected-text             = "#ffb45e"
+selected-border           = "#ffb45e"
+selected-border-alpha     = 0.5
+
+[polkit]
+background       = "#0e0906"
+background-alpha = 0.9
+text             = "#f3e3cf"
+text-error       = "#ff6b6b"
+border           = "hyprland.active-border"
+border-error     = "#ff6b6b"
+border-alpha     = 1.0
+scrim            = "#060403"
+scrim-alpha      = 0.55
+accent           = "#ffb45e"
+
+[lock]
+background       = "#0e0906"
+background-alpha = 0.55
+text             = "#f3e3cf"
+placeholder      = "#7d6a58"
+text-error       = "#ff6b6b"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#ff6b6b"
+border-alpha     = 1.0
+selection        = "#ffb45e"
+selection-alpha  = 0.45
+
+[image-picker]
+scrim                   = "#060403"
+scrim-alpha             = 0.55
+text                    = "#f3e3cf"
+selected-border         = "#ffb45e"
+selected-border-alpha   = 1.0
+unselected-border       = "#f3e3cf"
+unselected-border-alpha = 0.22
