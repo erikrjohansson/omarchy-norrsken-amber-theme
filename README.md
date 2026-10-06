@@ -1,10 +1,10 @@
 # Norrsken Amber
 
-An amber variant of [Norrsken](https://github.com/ejuro/omarchy-norrsken-theme): warm amber on a deep brown-black, with coral-edged windows, a translucent glass shell, and a glowing planet horizon.
+An amber variant of [Norrsken](https://github.com/erikrjohansson/omarchy-norrsken-theme): warm amber on a deep brown-black, with coral-edged windows, a translucent glass shell, and a glowing planet horizon.
 
 ![Norrsken Amber desktop preview](preview.png)
 
-Neovim, the [cliamp](https://github.com/bjarneo/cliamp) music player, [Flea](https://github.com/ejuro/flea), and a terminal using Norrsken Amber with the full glass effect.
+Neovim, the [cliamp](https://github.com/bjarneo/cliamp) music player, [Flea](https://github.com/erikrjohansson/flea), and a terminal using Norrsken Amber with the full glass effect.
 
 ## Background
 
@@ -15,7 +15,7 @@ One **3840 × 2160** background: a thin amber planet edge against a star field w
 ## Install
 
 ```bash
-omarchy theme install https://github.com/ejuro/omarchy-norrsken-amber-theme.git
+omarchy theme install https://github.com/erikrjohansson/omarchy-norrsken-amber-theme.git
 ```
 
 Tested on Omarchy **4.0.4**.
@@ -25,13 +25,13 @@ Tested on Omarchy **4.0.4**.
 Omarchy skips Lua from installed themes for safety, so the command above leaves out the frosted-glass windows, blur, rounded corners, and glow in [`hyprland.lua`](hyprland.lua). To add them, read that file, then run:
 
 ```bash
-git clone https://github.com/ejuro/omarchy-norrsken-amber-theme.git ~/.local/share/omarchy-norrsken-amber-theme
+git clone https://github.com/erikrjohansson/omarchy-norrsken-amber-theme.git ~/.local/share/omarchy-norrsken-amber-theme
 rm -rf ~/.config/omarchy/themes/norrsken-amber
 ln -s ~/.local/share/omarchy-norrsken-amber-theme ~/.config/omarchy/themes/norrsken-amber
 omarchy theme set norrsken-amber
 ```
 
-Terminals, the Omarchy agent and About windows, [Omawrite](https://github.com/ejuro/omawrite), and [Flea](https://github.com/ejuro/flea) turn to glass; everything else stays opaque.
+Terminals, the Omarchy agent and About windows, [Omawrite](https://github.com/erikrjohansson/omawrite), and [Flea](https://github.com/erikrjohansson/flea) turn to glass; everything else stays opaque.
 
 ## Palette
 
