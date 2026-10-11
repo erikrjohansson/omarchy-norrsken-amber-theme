@@ -5,7 +5,6 @@
 Norrsken Amber includes adaptations of [Omarchy](https://github.com/omacom/omarchy) theme templates:
 
 - `shell.toml`, adapted from `default/themed/shell.toml.tpl`.
-- `hyprland.lua`, adapted from `default/themed/hyprland.lua.tpl`.
 
 The following upstream MIT notice is retained for the adapted portions. Norrsken Amber's own license is in [LICENSE](LICENSE).
 

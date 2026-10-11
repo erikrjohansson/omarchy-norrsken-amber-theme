@@ -31,6 +31,6 @@ bright_cyan = "#a5e8de"
 bright_blue = "#b0cdff"
 bright_magenta = "#f0b8e4"
 
-# Hairline window edges: accent fading into the second accent on the active window.
-hyprland_active_border = "rgba(ffb45eee) rgba(ff7a6bcc) 45deg"
+# Window edges: a single soft accent on the active window.
+hyprland_active_border = "rgba(ffb45e88)"
 hyprland_inactive_border = "rgba(ffffff1a)"
