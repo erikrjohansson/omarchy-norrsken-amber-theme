@@ -4,7 +4,7 @@ An amber variant of [Norrsken](https://github.com/erikrjohansson/omarchy-norrske
 
 ![Norrsken Amber desktop preview](preview.png?v=2026-10-11)
 
-Neovim, the [cliamp](https://github.com/bjarneo/cliamp) music player, [Flea](https://github.com/erikrjohansson/flea), and btop using Norrsken Amber.
+Neovim, btop, and [Flea](https://github.com/erikrjohansson/flea) using Norrsken Amber.
 
 ## Background
 
@@ -20,23 +20,22 @@ omarchy theme install https://github.com/erikrjohansson/omarchy-norrsken-amber-t
 
 Tested on Omarchy **4.0.4**.
 
-## Palette
+## Update
 
-| Role | Color |
-| --- | --- |
-| Main surfaces | `#0e0906` |
-| Raised surfaces | `#1a120c` |
-| Text | `#f3e3cf` |
-| Accent | `#ffb45e` |
-| Active border | `#ffb45e` |
-| Selection | `#3a2414` |
-| Muted text | `#9a8470` |
+To get new wallpapers and fixes, update your installed themes, then apply Norrsken Amber again so Omarchy picks up the new files:
 
-## Customization and compatibility
+```bash
+omarchy theme update
+omarchy theme set norrsken-amber
+```
 
-`colors.toml` supplies the shared palette and the active window border. Omarchy generates terminal and supported application configurations from it. `shell.toml` styles the shell surfaces as translucent glass, and `gtk.css` styles GTK applications on setups that link GTK to the current theme. Update those files too when changing palette colors, then reapply the theme.
+## Remove
 
-Norrsken Amber contains no application patches or install hooks.
+Switch to another theme first (for example with `omarchy theme switcher`), then remove Norrsken Amber:
+
+```bash
+omarchy theme remove norrsken-amber
+```
 
 ## License
 
