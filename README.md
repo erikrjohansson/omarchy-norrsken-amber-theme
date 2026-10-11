@@ -2,7 +2,7 @@
 
 An amber variant of [Norrsken](https://github.com/erikrjohansson/omarchy-norrsken-theme): warm amber on a deep brown-black, with softly lit window edges, a translucent shell, and a glowing planet horizon.
 
-![Norrsken Amber desktop preview](preview.png)
+![Norrsken Amber desktop preview](preview.png?v=2026-10-11)
 
 Neovim, the [cliamp](https://github.com/bjarneo/cliamp) music player, [Flea](https://github.com/erikrjohansson/flea), and btop using Norrsken Amber.
 
